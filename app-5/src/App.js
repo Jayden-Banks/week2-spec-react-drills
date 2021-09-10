@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Image from './components/Image';
+import color from './color-stream.gif';
+
+/*
+### App #5
+Create an `Image` component that renders an `<img />` element. 
+The `src` for the `<img />` should be passed down as a prop from the parent component. 
+You can use whatever image URL you would 
+like to or you can get a placeholder from <a href="https://placeholder.com/">Click Me!</a>
+*/
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Image color={color}/>
     </div>
   );
 }

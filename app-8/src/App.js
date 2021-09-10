@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ApiCaller from './components/ApiCaller';
+
+/* 
+Create an app hitting an API of your choice 
+(swapi.co, birdapi.com, pokeapi, smurfs, marvel api, etc). 
+The API should be hit as soon as the component is finished rendering. 
+The app should set value(s) on state based on results from the API and 
+then show the propertie(s) on state in the DOM.
+The `axios` package should be used to hit an API.
+*/
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    hello
+    <ApiCaller />
     </div>
   );
 }

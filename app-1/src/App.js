@@ -1,26 +1,16 @@
+// ### App #1
+
+// Create a basic react app where you type in a text box and it shows up as text on the DOM.
+// * Completed (I also tested manipulating the public mainfest with a js logo)
+
 import React from 'react';
-import logo from './logo.svg';
+import InputText from './components/InputText';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  console.log('Test')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <InputText />
   );
 }
 
